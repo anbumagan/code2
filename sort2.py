@@ -1,6 +1,4 @@
 a=int(input())
-y=[]
-for i in range(0,a):
-    x=int(input())
-    y.append(x)
-print(y) 
+x=list(map(int,input().split()))
+x.sort()
+print(*x)
