@@ -1,0 +1,8 @@
+a,b=input().split()
+c,d=input().split()
+e=int(a)
+f=int(b)
+g=int(c)
+h=int(d)
+print(abs(g-e),end=" ")
+print(abs(h-f))
