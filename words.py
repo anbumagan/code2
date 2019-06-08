@@ -1,2 +1,2 @@
-a=list(map(str,input().split()))
-print(len(a))
+a8=list(map(str,input().split()))
+print(len(a8))
